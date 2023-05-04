@@ -29,7 +29,7 @@ public class HomeTests extends TestBase{
         Assert.assertTrue(true);
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2, groups = {"regression"})
     public void homeTest3(){
         System.out.println("======HomeTests- homeTest3=========");
         Assert.assertTrue(true);
