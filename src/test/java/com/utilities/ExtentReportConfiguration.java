@@ -18,8 +18,4 @@ public class ExtentReportConfiguration {
         extentReports.attachReporter(reporter);
         return extentReports;
     }
-
-
-
-
 }
