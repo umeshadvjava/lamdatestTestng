@@ -35,7 +35,7 @@ public class HomeTests extends TestBase{
         Assert.assertTrue(true);
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1,groups = {"functional"})
     public void homeTest4(){
         System.out.println("======HomeTests- homeTest4=========");
         Assert.assertTrue(true);
