@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Priority 1 Test cases" >
+    <listeners>
+        <listener class-name="ng.utilities.PriorityListener"></listener>
+    </listeners>
+    <test name="regression">
+        <packages>
+            <package name="ng.testcases.*"></package>
+        </packages>
+    </test>
+    
+    
+</suite>

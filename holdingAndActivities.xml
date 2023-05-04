@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Holding and Activities tests">
+
+    <listeners>
+        <listener class-name="ng.utilities.TestListeners"></listener>
+    </listeners>
+    <test name="Holdings" >
+        <groups>
+            <define name="group1">
+                <include name="regression"></include>
+                <include name="functional"></include>
+            </define>
+            <run>
+                <include name="group1"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="ng.testcases.EdeliveryTests"></class>
+            <class name="ng.testcases.HomeTests"></class>
+        </classes>
+    </test>
+    <test name="LoginTest" >
+        <classes>
+            <class name="ng.testcases.LoginTests">
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.utilities.Listeners"></listener>
+    </listeners>
+    <test  name="Select" parallel = "methods" thread-count = "4">
+        <classes>
+            <class name="com.testcases.SelectTest" />
+            <class name="com.testcases.ModelWindowTest" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/Chintu/Study/Framework/project/lamdatestTestng/src/test">
+        <classes>
+            <class name="com.testcases.AuthPopup">
+                <methods>
+                    <include name="authPopup"/>
+                </methods>
+            </class>
+            <class name="com.testcases.FrameTest">
+                <methods>
+                    <include name="iFrameTest"/>
+                </methods>
+            </class>
+            <class name="com.testcases.ModelWindowTest">
+                <methods>
+                    <include name="windowHandle"/>
+                    <include name="getWindowTitle"/>
+                </methods>
+            </class>
+            <class name="com.testcases.SelectTest">
+                <methods>
+                    <include name="selectDropdown"/>
+                    <include name="multiSelect"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
